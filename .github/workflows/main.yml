@@ -26,6 +26,8 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: 8.4
 
       - name: Find project root and build
         run: |
